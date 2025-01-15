@@ -14,8 +14,8 @@ namespace Ex03.ConsoleUI
         public ConsoleUI()
         {
             eMenuOptions userChoice = 0;
-            printMenu(out userChoice);
-
+            printMenu();
+            userChoice = checkMenuOptionInput();
             while (userChoice != eMenuOptions.Exit)
             {
                 try
@@ -24,7 +24,7 @@ namespace Ex03.ConsoleUI
                     {
                         case eMenuOptions.AddNewVehicle:
                             {
-
+                                addVehicleToGarage();
                             }
                             break;
                         case eMenuOptions.ShowLicenseNumberByFilter:
@@ -85,8 +85,37 @@ namespace Ex03.ConsoleUI
             }
         }
 
+        private eMenuOptions checkMenuOptionInput()
+        {
+            eMenuOptions o_parsedInput;
 
-        public void printMenu(out eMenuOptions io_UserChoice) {
+            while (true)
+            {
+                string userInput = Console.ReadLine().Trim();
+                
+                if (!int.TryParse(userInput, out int userNumber))
+                {
+                    throw new FormatException("Invalid choice, please enter a valid number.");
+                }
+
+                else if (userNumber > (int)eMenuOptions.Exit || userNumber < (int)eMenuOptions.AddNewVehicle)
+                {
+                    throw new ValueOutOfRangeException(new Exception("Option not in range"),
+                        (int)eMenuOptions.Exit, (int)eMenuOptions.AddNewVehicle);
+                }
+                else
+                {
+                    o_parsedInput = (eMenuOptions)userNumber;
+                    break;
+                }
+            }
+
+            return o_parsedInput;
+        }
+
+
+        public void printMenu()//out eMenuOptions io_UserChoice)
+        {
 
             StringBuilder menuString = new StringBuilder();
             menuString.Append($"Welcome to Garage name.{Environment.NewLine}" +
@@ -103,24 +132,30 @@ namespace Ex03.ConsoleUI
             Console.WriteLine(menuString);
 
 
-            string userInput = Console.ReadLine().Trim();
-            if (!int.TryParse(userInput, out int userNumber))
-            {
-                throw new FormatException("Invalid choice, please enter a valid number.");
-            }
+            //string userInput = Console.ReadLine().Trim();
+            //if (!int.TryParse(userInput, out int userNumber))
+            //{
+            //    throw new FormatException("Invalid choice, please enter a valid number.");
+            //}
 
-            else if (userNumber > (int)eMenuOptions.Exit || userNumber < (int)eMenuOptions.AddNewVehicle)
-            {
-                throw new ValueOutOfRangeException(new Exception("Option not in range"),
-                    (int)eMenuOptions.Exit, (int)eMenuOptions.AddNewVehicle);
-            }
-            else
-            {
-                io_UserChoice = (eMenuOptions)userNumber;
-            }
+            //else if (userNumber > (int)eMenuOptions.Exit || userNumber < (int)eMenuOptions.AddNewVehicle)
+            //{
+            //    throw new ValueOutOfRangeException(new Exception("Option not in range"),
+            //        (int)eMenuOptions.Exit, (int)eMenuOptions.AddNewVehicle);
+            //}
+            //else
+            //{
+            //    io_UserChoice = (eMenuOptions)userNumber;
+            //}
+        }
 
+
+        private void addVehicleToGarage()
+        {
 
         }
+        
+
         public enum eMenuOptions
         {
             AddNewVehicle = 1,
@@ -133,6 +168,6 @@ namespace Ex03.ConsoleUI
             Exit
         }
     }
-           
+          
 }
 
