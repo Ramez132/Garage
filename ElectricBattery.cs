@@ -7,9 +7,8 @@ using static Ex03.GarageLogic.FuelEngine;
 
 namespace Ex03.GarageLogic
 {
-    internal class ElectricBattery: EnergySource
+    public class ElectricBattery: EnergySource
     {
-        //from father- m_EnergyPercentageLeft;
         private float m_BatteryTimeLeftInHours;
         private float m_MaxBatteryTimeInHours;
         

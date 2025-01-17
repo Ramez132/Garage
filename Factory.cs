@@ -15,7 +15,7 @@ using System;
 
 namespace Ex03.GarageLogic
 {
-    internal class Factory
+    public class Factory
     {
         public static Vehicle CreateVehicle(eVehicleType i_VehicleType, string i_ModelName, string i_LicenseNumber)
         {

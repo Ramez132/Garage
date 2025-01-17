@@ -2,7 +2,7 @@
 
 namespace Ex03.GarageLogic
 {
-    internal class Car : Vehicle
+    public class Car : Vehicle
     {
         private eColors eCarColor;
         private eDoors eNumberOfDoors;
@@ -37,7 +37,7 @@ namespace Ex03.GarageLogic
             }
         }
 
-        internal eDoors Doors
+        public eDoors Doors
         {
             get { return eNumberOfDoors; }
             set
@@ -54,8 +54,7 @@ namespace Ex03.GarageLogic
                 }
             }
         }
-
-        internal eColors Color
+        public eColors Color
         {
             get { return eCarColor; }
             set
