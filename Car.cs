@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Ex03.GarageLogic
 {
@@ -71,7 +72,25 @@ namespace Ex03.GarageLogic
                 }
             }
         }
-
+        public override string ToString()
+        {
+            StringBuilder details = new StringBuilder(base.ToString());  // Get base details (model, license, wheels)
+            details.AppendLine("Car Details:");
+            details.AppendLine($"  - Color: {eCarColor}");
+            details.AppendLine($"  - Number of Doors: {eNumberOfDoors}");
+            details.AppendLine($"  - Energy Type: {(m_EnergySource is FuelEngine ? "Fuel Engine" : "Electric Battery")}");
+            if (m_EnergySource is FuelEngine fuelEngine)
+            {
+                details.AppendLine($"  - Fuel Type: {fuelEngine.FuelTypes}");
+                details.AppendLine($"  - Fuel Remaining: {fuelEngine.EnergyPercentageLeft}%");
+            }
+            else if (m_EnergySource is ElectricBattery battery)
+            {
+                details.AppendLine($"  - Battery Time Left: {battery.BatteryTimeLeftInHours} hours");
+                details.AppendLine($"  - Battery Percentage: {battery.EnergyPercentageLeft}%");
+            }
+            return details.ToString();
+        }
         public enum eColors
         {
             Blue = 1,

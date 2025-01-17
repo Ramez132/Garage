@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using System.Text;
 
 public abstract class Vehicle
 {
@@ -56,5 +57,19 @@ public abstract class Vehicle
     public void AddWheel(Wheel i_Wheel)
     {
         m_Wheels.Add(i_Wheel);
+    }
+
+    public override string ToString()
+    {
+        StringBuilder details = new StringBuilder();
+        details.AppendLine($"License Number: {m_LicenseNumber}");
+        details.AppendLine($"Model Name: {m_ModelName}");
+        details.AppendLine("Wheels Details:");
+        foreach (Wheel wheel in m_Wheels)
+        {
+            details.AppendLine($"  - Manufacturer: {wheel.ProducerName}");
+            details.AppendLine($"  - Current Air Pressure: {wheel.CurrentAirPressure}/{wheel.MaxAirPressure}");
+        }
+        return details.ToString();  
     }
 }

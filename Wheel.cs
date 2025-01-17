@@ -28,7 +28,7 @@ namespace Ex03.GarageLogic
             }
         }
 
-        private string ProducerName
+        public string ProducerName
         {
             get { return m_ProducerName; }
 

@@ -1,0 +1,10 @@
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\bin\Debug\Ex03.ConsoleUI.exe.config
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\bin\Debug\Ex03.ConsoleUI.exe
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\bin\Debug\Ex03.ConsoleUI.pdb
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\bin\Debug\Ex03.GarageLogic.pdb
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\bin\Debug\Ex03.GarageLogic.dll.config
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\obj\Debug\Ex03.Con.97A6B4C2.Up2Date
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\obj\Debug\Ex03.ConsoleUI.exe
+C:\Users\97250\OneDrive\שולחן העבודה\computer science\C#\Garage\obj\Debug\Ex03.ConsoleUI.pdb

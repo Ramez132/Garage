@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Ex03.GarageLogic
 {
@@ -46,6 +47,18 @@ namespace Ex03.GarageLogic
         {
             get { return m_TransportsRefrigeratedMaterials; }
             set { m_TransportsRefrigeratedMaterials = value; }
+        }
+
+
+        public override string ToString()
+        {
+            StringBuilder details = new StringBuilder(base.ToString());  // Get base details
+            details.AppendLine("Truck Details:");
+            details.AppendLine($"  - Transports Refrigerated Materials: {m_TransportsRefrigeratedMaterials}");
+            details.AppendLine($"  - Cargo Volume: {m_CargoVolume} cubic meters");
+            details.AppendLine($"  - Fuel Type: {m_EnergySource.FuelTypes}");
+            details.AppendLine($"  - Fuel Remaining: {m_EnergySource.EnergyPercentageLeft}%");
+            return details.ToString();
         }
     }
 }

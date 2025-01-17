@@ -14,6 +14,7 @@ namespace Ex03.GarageLogic
         {
             get { return m_Vehicles; }
         }
+
         public void AddNewVehicleToGarage(string i_LicenseNumber, VehicleInGarage i_VehicleToAdd)
         {
             if (m_Vehicles.ContainsKey(i_LicenseNumber))
@@ -27,7 +28,7 @@ namespace Ex03.GarageLogic
             }
 
         }
-        public List<Vehicle> printVehiclesInGarage(bool i_ByFilterOfCondition, VehicleInGarage.eVehicleCondition i_VehicleCondition)
+        public List<Vehicle> GetVehiclesInGarageByFilter(bool i_ByFilterOfCondition, VehicleInGarage.eVehicleCondition i_VehicleCondition)
         {
             List<Vehicle> vehiclesToPrintByFilter = new List<Vehicle>();
             if (i_ByFilterOfCondition)
@@ -51,11 +52,11 @@ namespace Ex03.GarageLogic
             return vehiclesToPrintByFilter;//in the ui prints the list
         }
 
-        public void inflateTiresToMaximumInGarageVehicle(string i_LicneseNumber)
+        public void InflateTiresToMaximumInGarageVehicle(string i_LicneseNumber)
         {
             try
             {
-                m_Vehicles[i_LicneseNumber].inflateWheelsToMaximum();
+                m_Vehicles[i_LicneseNumber].InflateWheelsToMaximum();
             }
             catch (ValueOutOfRangeException ex)
             {
@@ -80,6 +81,10 @@ namespace Ex03.GarageLogic
                 else if (m_Vehicles[i_LicenseNumber].GarageVehicle is Truck)
                 {
                     (((Truck)m_Vehicles[i_LicenseNumber].GarageVehicle).Energy).fuelAction(i_AmountOfFuelToAdd, i_FuelType);
+                }
+                else
+                {
+                    throw new Exception("Vehicle not found");
                 }
 
             }

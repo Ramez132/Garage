@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using static Ex03.GarageLogic.Motorcycle;
+
 
 namespace Ex03.GarageLogic
 {
@@ -29,7 +29,7 @@ namespace Ex03.GarageLogic
                 {
                     throw new ArgumentException("Invalid phone number input");
                 }
-            } 
+            }
 
         }
         public Vehicle GarageVehicle
@@ -54,7 +54,7 @@ namespace Ex03.GarageLogic
                     throw new ArgumentException("Invalid owner name input");
                 }
             }
-         
+
         }
         public eVehicleCondition VehicleCondition
         {
@@ -73,11 +73,11 @@ namespace Ex03.GarageLogic
                 }
             }
         }
-        public void changeVehicleCondition(VehicleInGarage.eVehicleCondition i_VehicleConditionToAssign)
+        public void ChangeVehicleCondition(VehicleInGarage.eVehicleCondition i_VehicleConditionToAssign)
         {
             try
             {
-                VehicleCondition = i_VehicleConditionToAssign;  
+                VehicleCondition = i_VehicleConditionToAssign;
             }
             catch (ValueOutOfRangeException ex)
             {
@@ -85,7 +85,7 @@ namespace Ex03.GarageLogic
             }
 
         }
-        public void inflateWheelsToMaximum()
+        public void InflateWheelsToMaximum()
         {
             try
             {
@@ -94,9 +94,9 @@ namespace Ex03.GarageLogic
                     wheel.InflateAction(wheel.MaxAirPressure - wheel.CurrentAirPressure);
                 }
             }
-            catch(ValueOutOfRangeException ex)
+            catch (ValueOutOfRangeException ex)
             {
-                throw ex;     
+                throw ex;
             }
 
         }
@@ -107,5 +107,15 @@ namespace Ex03.GarageLogic
             Paid
         }
 
+
+        public override string ToString()
+        {
+            StringBuilder vehicleDetails = new StringBuilder();
+            vehicleDetails.AppendLine($"Owner Name: {m_OwnerName}");
+            vehicleDetails.AppendLine($"Owner Phone: {m_OwnerNumber}");
+            vehicleDetails.AppendLine($"Vehicle Condition: {m_VehicleCondition}");
+            vehicleDetails.AppendLine(m_Vehicle.ToString());  // Calls the vehicle's overridden ToString()
+            return vehicleDetails.ToString();
+        }
     }
 }
