@@ -2,7 +2,7 @@
 
 namespace Ex03.GarageLogic
 {
-    internal class Truck : Vehicle
+    public class Truck : Vehicle
     {
         private bool m_TransportsRefrigeratedMaterials;
         private float m_CargoVolume;

@@ -1,12 +1,283 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A900013-D0B1-4C05-96DE-C9E8BFEDB005}|Ex03.ConsoleUI.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A900013-D0B1-4C05-96DE-C9E8BFEDB005}|Ex03.ConsoleUI.csproj|solutionrelative:consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\motocycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:motocycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\energysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:energysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\electricbattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:electricbattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\fuelengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:fuelengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\valueoutofrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:valueoutofrangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6EE5F2C-98B1-4382-9DD3-F1D98D9A312A}|Ex03.GarageLogic.csproj|solutionrelative:garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A900013-D0B1-4C05-96DE-C9E8BFEDB005}|Ex03.ConsoleUI.csproj|c:\\users\\ramez\\downloads\\c#_ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A900013-D0B1-4C05-96DE-C9E8BFEDB005}|Ex03.ConsoleUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motocycle.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Motocycle.cs",
+              "RelativeDocumentMoniker": "Motocycle.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Motocycle.cs",
+              "RelativeToolTip": "Motocycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:01:47.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ElectricBattery.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ElectricBattery.cs",
+              "RelativeDocumentMoniker": "ElectricBattery.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ElectricBattery.cs",
+              "RelativeToolTip": "ElectricBattery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:45:10.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Truck.cs",
+              "RelativeDocumentMoniker": "Truck.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Truck.cs",
+              "RelativeToolTip": "Truck.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:41:47.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "ConsoleUI.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ConsoleUI.cs",
+              "RelativeToolTip": "ConsoleUI.cs",
+              "ViewState": "AgIAAPABAAAAAAAAAAAqwAQCAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T18:33:13.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Car.cs",
+              "RelativeDocumentMoniker": "Car.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Car.cs",
+              "RelativeToolTip": "Car.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:41:24.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Wheel.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Wheel.cs",
+              "RelativeDocumentMoniker": "Wheel.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Wheel.cs",
+              "RelativeToolTip": "Wheel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:39:55.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnergySource.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\EnergySource.cs",
+              "RelativeDocumentMoniker": "EnergySource.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\EnergySource.cs",
+              "RelativeToolTip": "EnergySource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:29:56.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleInGarage.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\VehicleInGarage.cs",
+              "RelativeDocumentMoniker": "VehicleInGarage.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\VehicleInGarage.cs",
+              "RelativeToolTip": "VehicleInGarage.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:42:12.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:27:00.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FuelEngine.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\FuelEngine.cs",
+              "RelativeDocumentMoniker": "FuelEngine.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\FuelEngine.cs",
+              "RelativeToolTip": "FuelEngine.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T10:44:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Factory.cs",
+              "RelativeDocumentMoniker": "Factory.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Factory.cs",
+              "RelativeToolTip": "Factory.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T19:27:59.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Client.cs",
+              "RelativeDocumentMoniker": "Client.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Client.cs",
+              "RelativeToolTip": "Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:16:44.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Garage.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Garage.cs",
+              "RelativeDocumentMoniker": "Garage.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Garage.cs",
+              "RelativeToolTip": "Garage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:24:41.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ValueOutOfRangeException.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ValueOutOfRangeException.cs",
+              "RelativeDocumentMoniker": "ValueOutOfRangeException.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\ValueOutOfRangeException.cs",
+              "RelativeToolTip": "ValueOutOfRangeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:41:09.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ramez\\Downloads\\C#_Ex3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T18:37:16.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
